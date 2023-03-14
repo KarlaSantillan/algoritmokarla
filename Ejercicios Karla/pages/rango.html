@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="../css/style3.css">        
+        <title>Menu</title>
+    </head>
+    <body>
+        <section class="contenedor">
+            <h1>Rango entre dos valores</h1>
+            <form action="../index.html">
+                <div class="grupo">
+                    <label for="num1">Número inicio</label>
+                    <input type="text" id="num1" value="" placeholder="Ingrese número inicial"/>
+                </div>
+                <div class="grupo">
+                    <label for="num2">Número final</label>
+                    <input type="text" id="num2" value="" placeholder="Ingrese número final"/>
+                </div>
+                
+                <div class="grupo">
+                    <button type="button" onclick="ejer.arregloRango()">Calcular</button>
+                    <button type="reset" onclick="ejer.limpiar()">Limpiar</button>
+                    <button type="submit">Regresar</button>
+                </div>
+                <textarea  id="resp" rows="10">
+                
+                </textarea>
+            </form>
+        </section>
+        <script src="../js/ejercicios.js">    
+        </script>
+    </body>
+</html>

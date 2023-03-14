@@ -1,0 +1,35 @@
+body{
+    background-color: rgb(6, 8, 27);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: #fff;
+}
+
+div{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 15px;
+}
+
+h1{
+    color: aliceblue;
+    font-size: 34px;
+
+}
+
+.opcion{
+    display:block;
+    text-align:center;
+    text-decoration: none;
+    border-radius:8px;
+    line-height:50px;
+    font-size:24px;
+    width: 325px;
+    font-weight:bold;
+    cursor: pointer;
+    cursor: pointer;
+    color: whitesmoke;
+    background-image: linear-gradient(to right top, #78cafa,  #4014a7);
+    transition: .5s ease-in-out;
+}
